@@ -35,7 +35,8 @@
     "home": "Home",
     "info": "Info about Lung Cancer",
     "prediction": "Predict your Lung risk!",
-    "about": "About us"
+    "about": "About us",
+    "image_prediction": "X-ray Prediction"
   },
   "info_page": {
     "title": "Lung Cancer Information",
@@ -92,5 +93,8 @@
   "about_page": {
     "title": "About the Developer",
     "description": "This application was developed by Nazar-Oleksii Umantsiv, a university student, as part of a practical internship for the Zakarpattya Emergency and Medical Catastrophe Centre.  \nThe primary goal of the project is to create an accessible and user-friendly online tool that allows users to conduct a preliminary assessment of their lung cancer risk.  \nWhile **it does not replace medical consultation**, the app encourages timely attention to possible symptoms and supports informed decisions about seeking professional medical care."
+  },
+  "image_prediction": {
+    "title": "X-ray Prediction"
   }
 }
