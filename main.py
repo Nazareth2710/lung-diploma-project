@@ -2,6 +2,12 @@ import streamlit as st
 from utils.theming import render_theme_toggle
 from utils.localization import set_language, get_localized_strings
 
+st.set_page_config(
+    page_title="Lung Disease App",
+    page_icon="images/favicon.ico",
+    initial_sidebar_state="expanded"
+)
+
 st.logo("images/lung_cancer_logo_full.png", icon_image='images/lung_cancer_logo_icon.png', size='large')
 t = get_localized_strings()
 
