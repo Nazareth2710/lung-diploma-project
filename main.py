@@ -9,7 +9,7 @@ pages = {
     "": [
         st.Page("components/home.py", title=t["pages"]["home"], icon=":material/home:"),
         st.Page("components/info_page.py", title=t["pages"]["info"], icon=":material/pulmonology:"),
-        st.Page("components/form_prediction.py", title=t["pages"]["prediction"], icon=":material/respiratory_rate:"),
+        st.Page("components/form_prediction.py", title=t["pages"]["prediction"], icon=":material/blood_pressure:"),
         st.Page("components/about_us.py", title=t["pages"]["about"], icon=":material/info:")
     ]
 }
