@@ -4,7 +4,7 @@ from utils.localization import get_localized_strings
 from utils.prediction import load_model
 
 t = get_localized_strings()["form_prediction"]
-st.image("images/lung-cancer-3.png")
+st.image("images/lung-cancer-5.png")
 
 model = load_model()
 
