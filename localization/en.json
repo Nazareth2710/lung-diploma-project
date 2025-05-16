@@ -95,6 +95,8 @@
     "description": "This application was developed by Nazar-Oleksii Umantsiv, a university student, as part of a practical internship for the Zakarpattya Emergency and Medical Catastrophe Centre.  \nThe primary goal of the project is to create an accessible and user-friendly online tool that allows users to conduct a preliminary assessment of their lung cancer risk.  \nWhile **it does not replace medical consultation**, the app encourages timely attention to possible symptoms and supports informed decisions about seeking professional medical care."
   },
   "image_prediction": {
-    "title": "X-ray Prediction"
+    "title": "Lung Disease Detection from X-ray",
+    "description": "This module allows you to analyze a chest X-ray to detect diseases such as pneumonia or tuberculosis. Upload an image and the system will provide a probable diagnosis based on deep learning algorithms."
   }
+
 }
