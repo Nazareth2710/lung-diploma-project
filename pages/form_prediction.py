@@ -8,7 +8,6 @@ MEDIUM_RISK_THRESHOLD = 30
 
 t = get_localized_strings()["form_prediction"]
 st.image("images/lung-cancer-5.png")
-model = load_model()
 
 st.title(t["title"])
 yes_no = [t["yes"], t["no"]]
@@ -20,7 +19,18 @@ binary_questions_keys = [
     "swallowing_difficulty", "chest_pain"
 ]
 
+
+available_models = {
+    "Naive Bayes": "models/bnb_model.pkl",
+    "K-Nearest Neighbors": "models/knn_model.pkl",
+    "XGBoost": "models/xgb_model.pkl"
+}
+
 with st.form("prediction_form"):
+    model_choice = st.selectbox("🔍 Оберіть модель прогнозування:", list(available_models.keys()))
+    model_path = available_models[model_choice]
+    model = load_model(model_path)
+
     gender = st.selectbox(t["gender"], [t["male"], t["female"]])
     age = st.slider(t["age"], 1, 120, 18)
 
