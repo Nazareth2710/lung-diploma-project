@@ -13,11 +13,11 @@ t = get_localized_strings()
 
 pages = {
     "": [
-        st.Page("components/home.py", title=t["pages"]["home"], icon=":material/home:"),
-        st.Page("components/info_page.py", title=t["pages"]["info"], icon=":material/pulmonology:"),
-        st.Page("components/image_prediction.py", title=t["pages"]["image_prediction"], icon=":material/respiratory_rate:"),
-        st.Page("components/form_prediction.py", title=t["pages"]["prediction"], icon=":material/blood_pressure:"),
-        st.Page("components/about_us.py", title=t["pages"]["about"], icon=":material/info:")
+        st.Page("pages/home.py", title=t["pages"]["home"], icon=":material/home:"),
+        st.Page("pages/info_page.py", title=t["pages"]["info"], icon=":material/pulmonology:"),
+        st.Page("pages/image_prediction.py", title=t["pages"]["image_prediction"], icon=":material/respiratory_rate:"),
+        st.Page("pages/form_prediction.py", title=t["pages"]["prediction"], icon=":material/blood_pressure:"),
+        st.Page("pages/about_us.py", title=t["pages"]["about"], icon=":material/info:")
     ]
 }
 render_theme_toggle()
