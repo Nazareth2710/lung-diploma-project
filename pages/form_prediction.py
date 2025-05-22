@@ -22,8 +22,8 @@ binary_questions_keys = [
 
 available_models = {
     "Naive Bayes": "models/bnb_model.pkl",
-    "K-Nearest Neighbors": "models/knn_model.pkl",
-    "XGBoost": "models/xgb_model.pkl"
+    "Logistic Regression": "models/lr_model.pkl",
+    "XGBoost": "models/xgb_model.pkl",
 }
 
 with st.form("prediction_form"):
