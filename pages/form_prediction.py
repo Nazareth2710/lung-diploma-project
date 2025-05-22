@@ -19,7 +19,6 @@ binary_questions_keys = [
     "swallowing_difficulty", "chest_pain"
 ]
 
-
 available_models = {
     "Naive Bayes": "models/bnb_model.pkl",
     "Logistic Regression": "models/lr_model.pkl",
@@ -27,7 +26,7 @@ available_models = {
 }
 
 with st.form("prediction_form"):
-    model_choice = st.selectbox("🔍 Оберіть модель прогнозування:", list(available_models.keys()))
+    model_choice = st.selectbox(t["choose_model"], list(available_models.keys()))
     model_path = available_models[model_choice]
     model = load_model(model_path)
 

@@ -1,6 +1,7 @@
 {
   "form_prediction": {
     "title": "Lung Cancer Risk Assessment",
+    "choose_model": "Choose a forecasting model",
     "gender": "Gender",
     "male": "Male",
     "female": "Female",
