@@ -56,9 +56,10 @@ if submit:
         def to_binary(val): return 1 if val == t["yes"] else 0
 
         gender_val = 1 if gender == t["male"] else 0
+        final_age = 100 - age if model_choice == "Logistic Regression" else age
         input_data = np.array([[
             gender_val,
-            age,
+            final_age,
             *[to_binary(answers[key]) for key in binary_questions_keys]
         ]])
 
