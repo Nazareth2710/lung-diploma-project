@@ -57,6 +57,6 @@ docker build -t lung-diploma-project .
 
 2. Запустіть контейнер:
 ```bash
-docker run -p 8501:8501 lung-q-project
+docker run -p 8501:8501 lung-diploma-project
 ```
 
