@@ -7,7 +7,7 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
-# Lung Diseases App — Оцінка ризику раку легень
+# Lung Diseases App — Оцінка ризику легеневих захворювань
 
 **Lung Diseases App** — це веб-додаток на базі Streamlit, який дозволяє користувачам пройти коротке опитування для попередньої оцінки ризику розвитку раку легень та проаналізувати рентгенівськи зображення для виявлення пневмонії та туберкульозу. Проєкт розроблено у рамках дипломної роботи «_Розробка системи ранньої діагностики захворювання легень з використанням машинного навчання_».
 
