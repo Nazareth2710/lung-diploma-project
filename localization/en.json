@@ -145,7 +145,6 @@
     ]
   }
 },
-
   "image_prediction": {
     "title": "Lung Disease Detection from X-ray",
     "description": "This module allows you to analyze a chest X-ray to detect diseases such as pneumonia or tuberculosis. Upload an image and the system will provide a probable diagnosis based on deep learning algorithms."
