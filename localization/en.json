@@ -11,9 +11,16 @@
     "description": "***Lung Diseases*** is a user-friendly tool designed to help you assess the risk of lung diseases, including lung cancer, tuberculosis, and pneumonia. Our service combines questionnaire-based analysis with modern machine learning technologies to provide a preliminary evaluation based on your symptoms, lifestyle, chronic conditions, and harmful habits.  \n\nPlease note: this tool ***does not replace medical diagnosis***, but it can be a helpful first step toward taking control of your health. If you receive a high-risk result — don’t delay, consult your doctor.  \n\n***Breathe freely — take care in time!***"
    },
   "info_page": {
-    "title": "Lung Cancer Information",
-    "intro": "Learn more about what lung cancer is, its symptoms, causes, and prevention methods. Early detection saves lives.",
-    "what_is_lung_cancer": {
+  "title": "Information about Lung Diseases",
+  "intro": "Learn about common lung diseases including lung cancer, pneumonia, and tuberculosis. Each section covers what the disease is, key statistics, symptoms, causes and risk factors, as well as treatment options and prevention methods.",
+  "tabs": {
+    "lung_cancer": "Lung Cancer",
+    "pneumonia": "Pneumonia",
+    "tuberculosis": "Tuberculosis"
+  },
+  "source_title": "Sources",
+  "lung_cancer": {
+    "what_is": {
       "header": "What is Lung Cancer?",
       "content": "Lung cancer is a malignant tumor that develops in the tissues of one or both lungs. It usually originates in the cells lining the airways and is one of the most common types of cancer worldwide."
     },
@@ -55,9 +62,90 @@
         "title": "Wikipedia: Lung Cancer",
         "url": "https://en.wikipedia.org/wiki/Lung_cancer"
       }
-    ],
-    "source_title": "Sources"
+    ]
   },
+  "pneumonia": {
+    "what_is": {
+      "header": "What is Pneumonia?",
+      "content": "Pneumonia is an acute lung infection that inflames the air sacs (alveoli) in one or both lungs. It is most often caused by viruses or bacteria, and less commonly by fungi. During pneumonia, the alveoli fill with pus and fluid, making breathing painful and limiting oxygen intake. Pneumonia can range from mild to life-threatening, especially in young children, the elderly, and people with weakened immune systems."
+    },
+    "statistics": {
+      "header": "Statistics",
+      "content": "Pneumonia is a major global health concern. Each year, it affects millions of people worldwide and causes a significant number of deaths. In 2019, pneumonia was responsible for about 2.5 million deaths globally, including approximately 740,000 children under the age of 5:contentReference[oaicite:0]{index=0}. This makes it the single leading infectious cause of death among young children. Older adults and those with chronic illnesses also face higher risk of severe outcomes from pneumonia."
+    },
+    "symptoms": {
+      "header": "Symptoms",
+      "content": "Pneumonia symptoms can vary from mild to severe. Common symptoms include a cough (which may produce phlegm), fever and chills, chest pain when breathing or coughing, shortness of breath, and fatigue. In some cases, especially in older adults, pneumonia may cause confusion or dizziness instead of a high fever."
+    },
+    "causes_risk_factors": {
+      "header": "Causes and Risk Factors",
+      "content": "Pneumonia can be caused by a variety of pathogens. The most common cause in adults is bacteria (such as Streptococcus pneumoniae), while viruses (for example, influenza viruses or respiratory syncytial virus) frequently cause pneumonia in children. Fungi can also cause pneumonia, though less commonly, often in people with weakened immune systems. Risk factors for developing pneumonia include being very young or over 65 years old, having chronic illnesses (like COPD, diabetes, or heart disease), smoking or exposure to tobacco smoke, and having a weakened immune system (due to conditions such as HIV or certain medications). Additionally, not being vaccinated against diseases like influenza or pneumococcal infection increases the risk of pneumonia."
+    },
+    "treatment": {
+      "header": "Treatment",
+      "content": "Treatment of pneumonia depends on the cause and severity. Bacterial pneumonia is treated with antibiotics (with oral amoxicillin often used as a first-line treatment in many cases:contentReference[oaicite:1]{index=1}). Viral pneumonia may be managed with rest, fluids, and medications to reduce fever and pain, with antivirals used for specific viruses like influenza. In all cases, supportive care is important: getting plenty of rest, staying hydrated, and using fever reducers or pain relievers to manage symptoms. Severe pneumonia, or cases in high-risk patients, may require hospitalization for oxygen therapy, intravenous antibiotics, and breathing support."
+    },
+    "prevention": {
+      "header": "Prevention",
+      "content": "Many pneumonia cases can be prevented. Key preventive measures include vaccination against common pneumonia-causing organisms (such as pneumococcal vaccines for children and older adults, and annual flu shots to prevent influenza complications). Good hygiene practices, like regular handwashing and covering the mouth when coughing or sneezing, help reduce the spread of pneumonia-causing germs. Avoiding cigarette smoke and reducing indoor air pollution can improve lung health and lower pneumonia risk:contentReference[oaicite:2]{index=2}. For vulnerable individuals (such as the elderly or those with chronic conditions), maintaining a healthy lifestyle and good nutrition can also help strengthen the immune system."
+    },
+    "sources": [
+      {
+        "title": "WHO: Pneumonia",
+        "url": "https://www.who.int/health-topics/pneumonia"
+      },
+      {
+        "title": "CDC: Pneumonia",
+        "url": "https://www.cdc.gov/pneumonia/about/index.html"
+      },
+      {
+        "title": "Wikipedia: Pneumonia",
+        "url": "https://en.wikipedia.org/wiki/Pneumonia"
+      }
+    ]
+  },
+  "tuberculosis": {
+    "what_is": {
+      "header": "What is Tuberculosis?",
+      "content": "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis (also known as the Koch’s bacillus). It most often affects the lungs, but can also affect other parts of the body. TB spreads through the air when a person with active pulmonary TB coughs, sneezes, or speaks, releasing bacteria. Many people carry latent TB infection (with no symptoms and not contagious); about 5–10% of those infected will eventually develop active TB disease:contentReference[oaicite:3]{index=3}. TB is curable and preventable, but without proper treatment it can be fatal."
+    },
+    "statistics": {
+      "header": "Statistics",
+      "content": "Tuberculosis remains a major global health issue. In 2023, an estimated 10.8 million people fell ill with TB worldwide, and 1.25 million died from the disease:contentReference[oaicite:4]{index=4}. This makes TB one of the leading causes of death from an infectious agent, and it has again become the world’s deadliest single infectious disease after being temporarily surpassed by COVID-19:contentReference[oaicite:5]{index=5}. Over 80% of TB cases and deaths occur in low- and middle-income countries, and TB is the leading cause of death among people with HIV:contentReference[oaicite:6]{index=6}."
+    },
+    "symptoms": {
+      "header": "Symptoms",
+      "content": "TB symptoms typically develop gradually. Common symptoms of active pulmonary TB include a persistent cough (often with sputum and sometimes blood), chest pain, weakness or fatigue, weight loss, fever, and night sweats:contentReference[oaicite:7]{index=7}. These symptoms may be mild for months, which can lead to delays in diagnosis. TB that affects organs outside the lungs can cause a variety of symptoms specific to those organs. Many people with TB may not show noticeable symptoms until the disease is advanced."
+    },
+    "causes_risk_factors": {
+      "header": "Causes and Risk Factors",
+      "content": "TB is caused by airborne bacteria. However, not everyone infected with the bacteria becomes sick—risk factors play a major role in the progression to active disease. Conditions and factors that increase the risk of developing active TB include HIV infection (people with HIV are about 16 times more likely to develop TB disease:contentReference[oaicite:8]{index=8}), diabetes, malnutrition, kidney disease, smoking, and alcohol abuse:contentReference[oaicite:9]{index=9}. Close contact with someone with contagious TB, living in crowded settings (such as prisons or shelters), and lack of access to healthcare also heighten the risk of TB. Incomplete or improper TB treatment can lead to drug-resistant strains (MDR-TB), which are much harder to treat."
+    },
+    "treatment": {
+      "header": "Treatment",
+      "content": "TB is treatable with a course of specialized antibiotics, usually taken for at least 6 months. The standard first-line treatment for drug-sensitive TB is a combination of four antibiotics: isoniazid, rifampicin, pyrazinamide, and ethambutol:contentReference[oaicite:10]{index=10}. It is crucial that patients take all medications regularly for the full duration; stopping treatment early or missing doses can cause the TB bacteria to become drug-resistant:contentReference[oaicite:11]{index=11}. Multidrug-resistant TB requires second-line drugs and often longer treatment. TB treatment is usually provided for free through public health programs. Patients typically start therapy under direct medical supervision and continue it on an outpatient basis, with support to ensure adherence. With proper treatment, most TB cases can be cured."
+    },
+    "prevention": {
+      "header": "Prevention",
+      "content": "Preventing TB involves both medical and public health measures. The Bacille Calmette-Guérin (BCG) vaccine is given to infants in many countries to protect against severe forms of TB in children. Prompt diagnosis and treatment of active TB cases are crucial to prevent transmission to others. People who have been in close contact with TB patients may receive preventive therapy (antibiotics) to keep latent infection from developing into active disease:contentReference[oaicite:12]{index=12}. Other preventive steps include good respiratory hygiene (covering the mouth when coughing, wearing masks in high-risk areas), improving ventilation in crowded indoor spaces, and regular screening for those at high risk or with latent TB. Strengthening the immune system through proper nutrition and treating conditions like HIV can also reduce the risk of developing TB."
+    },
+    "sources": [
+      {
+        "title": "WHO: Tuberculosis",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis"
+      },
+      {
+        "title": "CDC: About TB",
+        "url": "https://www.cdc.gov/tb/about/index.html"
+      },
+      {
+        "title": "Wikipedia: Tuberculosis",
+        "url": "https://en.wikipedia.org/wiki/Tuberculosis"
+      }
+    ]
+  }
+},
+
   "image_prediction": {
     "title": "Lung Disease Detection from X-ray",
     "description": "This module allows you to analyze a chest X-ray to detect diseases such as pneumonia or tuberculosis. Upload an image and the system will provide a probable diagnosis based on deep learning algorithms."
