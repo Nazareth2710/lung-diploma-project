@@ -1,7 +1,7 @@
 {
   "pages": {
     "home": "Home",
-    "info": "Info about Lung Cancer",
+    "info": "Info about lung diseases",
     "prediction": "Predict your Lung risk!",
     "about": "About us",
     "image_prediction": "X-ray Prediction"
