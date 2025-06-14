@@ -14,9 +14,9 @@
   "title": "Information about Lung Diseases",
   "intro": "Learn about common lung diseases including lung cancer, pneumonia, and tuberculosis. Each section covers what the disease is, key statistics, symptoms, causes and risk factors, as well as treatment options and prevention methods.",
   "tabs": {
-    "lung_cancer": "Lung Cancer",
-    "pneumonia": "Pneumonia",
-    "tuberculosis": "Tuberculosis"
+    "lung_cancer": "ㅤㅤLung Cancerㅤㅤ",
+    "pneumonia": "ㅤㅤPneumoniaㅤㅤ",
+    "tuberculosis": "ㅤㅤTuberculosisㅤㅤ"
   },
   "source_title": "Sources",
   "lung_cancer": {
