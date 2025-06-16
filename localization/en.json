@@ -8,6 +8,8 @@
   },
   "home_page": {
     "title": "Welcome to Lung Diseases",
+    "go_to_image": "Check by X-ray",
+    "go_to_form": "Check by Questionnaire",
     "description": "***Lung Diseases*** is a user-friendly tool designed to help you assess the risk of lung diseases, including lung cancer, tuberculosis, and pneumonia. Our service combines questionnaire-based analysis with modern machine learning technologies to provide a preliminary evaluation based on your symptoms, lifestyle, chronic conditions, and harmful habits.  \n\nPlease note: this tool ***does not replace medical diagnosis***, but it can be a helpful first step toward taking control of your health. If you receive a high-risk result — don’t delay, consult your doctor.  \n\n***Breathe freely — take care in time!***"
    },
   "info_page": {
